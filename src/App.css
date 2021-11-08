@@ -1,4 +1,89 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: monospace;
+}
+body {
+  background-color: whitesmoke;
+}
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+view-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  background-color: whitesmoke;
+  height: 250px;
+  border: 2px solid crimson;
+  border-radius: 5px;
+}
+input, select, textarea, .submit {
+  width: 400px;
+  height: 30px;
+  border: 2px solid crimson;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 3px;
+  margin-bottom: 5px;
+  background-color: whitesmoke;
+}
+select, .submit {
+  width: 410px;
+  height: 40px;
+}
+.submit {
+  background-color: crimson;
+  color: whitesmoke;
+
+}
+view-wrapper p, h1 {
+  font-size: 15px;
+  padding: 3px;
+  width: 400px;
+}
+view-wrapper h1 {
+  font-size: 20px;
+}
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  background-color: #0a0b0b;
+  width: 80px;
+  transition: ease-in-out;
+  transition-duration: 0.3s;
+  position: absolute;
+  right: 1vw;
+  top: 1vw;
+  display: none;
+}
+.close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  height: 25px;
+  color: whitesmoke;
+  font-size: 20px;
+  border: none;
+  background-color: transparent;
+  margin-right: 5px;
+
+  
+}
+.button-wrapper:hover {
+  scale: 1.1;
 }
