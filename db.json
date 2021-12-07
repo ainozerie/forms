@@ -1,0 +1,20 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "firstname": "Sergei ",
+      "lastname": "Ainozerov",
+      "phonenumber": "403656697",
+      "role": "developer",
+      "message": "Hello there!"
+    },
+    {
+      "firstname": "Margit",
+      "lastname": "Tennosar",
+      "phonenumber": "0407856492",
+      "role": "teacher",
+      "message": "Unicorns forever!",
+      "id": 2
+    }
+  ]
+}

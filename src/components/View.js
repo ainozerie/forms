@@ -1,17 +1,16 @@
-import React, {Component} from "react";
+import React from "react";
 
-class View extends Component {
-    render() {
-        return (
-            <viewwrapper>
-                <h1>This is your input: </h1>
-                <p className='first-name'>First name: {this.props.firstname}</p>
-                <p className='last-name'>Last name: {this.props.lastname}</p>
-                <p className='role'>Phone number: {this.props.phonenumber}</p>
-                <p className='role'>Role: {this.props.role}</p>
-                <p className='message'>Message: {this.props.message}</p>
-            </viewwrapper>
-        ); 
-    };
-};
+const View = ({firstname, lastname, phonenumber, role, message}) => {
+    return (
+        <viewwrapper>
+            <h1>This is your input: </h1>
+            <p className='first-name'>First name: {firstname}</p>
+            <p className='last-name'>Last name: {lastname}</p>
+            <p className='role'>Phone number: {phonenumber}</p>
+            <p className='role'>Role: {role}</p>
+            <p className='message'>Message: {message}</p>
+        </viewwrapper>
+    ); 
+}
+
 export default View;
